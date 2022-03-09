@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+.header {
+  background-color: rgb(124, 255, 227);
+  height: 50px;
+}
