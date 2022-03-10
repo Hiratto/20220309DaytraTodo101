@@ -1,5 +1,6 @@
 body {
   background-color: #fff;
+  min-height: 100vh;
 }
 
 h1 {
@@ -34,10 +35,57 @@ img.header-icon {
 /* ====================== */
 /* ボードゾーン */
 
+.board {
+  background-color: #fff;
+  box-shadow: #ddd 0px 0px 4px 2px;
+  border-radius: 8px;
+  margin: 12px 8px;
+  padding: 16px;
+}
+
+.board-title-edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.edit-img {
+  width: 1.5vw;
+}
+
+.board-img {
+  object-fit: cover;
+}
+
+.board-text {
+  font-size: 8px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
 .board-h2 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: gray;
   padding-left: 8px;
   padding-top: 8px;
+}
+
+.board-icon {
+  width: 4vh;
+  height: 4vh;
+  margin: 5px;
+}
+
+.add-new {
+  text-align: center;
+  margin: 12px 8px;
+  padding: 40px 0;
+  background-color: #ddd;
+  box-shadow: #ddd 0px 0px 4px 2px;
+  border-radius: 8px;
 }
