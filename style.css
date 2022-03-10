@@ -2,7 +2,42 @@ body {
   background-color: #fff;
 }
 
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ====================== */
+/* ヘッダー */
+
 .header {
-  background-color: rgb(124, 255, 227);
-  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: greenyellow;
+  align-items: center;
+}
+
+.header-title {
+  padding-left: 8px;
+}
+
+img.header-icon {
+  width: 45px;
+  height: 40px;
+}
+
+.header-icon {
+  padding-right: 8px;
+}
+
+/* ====================== */
+/* ボードゾーン */
+
+.board-h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: gray;
+  padding-left: 8px;
+  padding-top: 8px;
 }
