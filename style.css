@@ -67,11 +67,11 @@ img.header-icon {
   grid-gap: 20px;
 }
 
-.board-h2 {
-  font-size: 18px;
+.page-title {
+  font-size: 22px;
   font-weight: bold;
   color: gray;
-  padding-left: 8px;
+  padding-left: 16px;
   padding-top: 8px;
 }
 
